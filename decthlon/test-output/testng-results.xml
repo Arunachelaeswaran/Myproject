@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-29T18:01:04 IST" name="Default suite" finished-at="2023-01-29T18:02:32 IST" duration-ms="88202">
+  <suite started-at="2023-02-04T18:28:42 IST" name="Default suite" finished-at="2023-02-04T18:29:48 IST" duration-ms="66079">
     <groups>
     </groups>
-    <test started-at="2023-01-29T18:01:04 IST" name="Default test" finished-at="2023-01-29T18:02:32 IST" duration-ms="88202">
-      <class name="test.TestScript">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestScript@35d019a3]" started-at="2023-01-29T18:01:04 IST" name="setup" description="Launch Browser" finished-at="2023-01-29T18:02:02 IST" duration-ms="58017" status="PASS">
+    <test started-at="2023-02-04T18:28:42 IST" name="Default test" finished-at="2023-02-04T18:29:48 IST" duration-ms="66079">
+      <class name="test.Search_Product">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:28:44 IST" name="setup" description="Launch Browser" finished-at="2023-02-04T18:28:55 IST" duration-ms="10862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addcart()[pri:1, instance:test.TestScript@35d019a3]" started-at="2023-01-29T18:02:02 IST" name="addcart" description="Login Test" finished-at="2023-01-29T18:02:27 IST" duration-ms="24784" status="PASS">
+        <test-method signature="producttest(java.lang.String)[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:28:55 IST" name="producttest" data-provider="product" finished-at="2023-02-04T18:29:02 IST" duration-ms="7430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bags]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addcart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestScript@35d019a3]" started-at="2023-01-29T18:02:27 IST" name="teardown" description="Close Browser" finished-at="2023-01-29T18:02:32 IST" duration-ms="5372" status="PASS">
+        </test-method> <!-- producttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:02 IST" name="teardown" description="Close Browser" finished-at="2023-02-04T18:29:08 IST" duration-ms="5504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- test.TestScript -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:08 IST" name="setup" description="Launch Browser" finished-at="2023-02-04T18:29:14 IST" duration-ms="6768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="producttest(java.lang.String)[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:14 IST" name="producttest" data-provider="product" finished-at="2023-02-04T18:29:23 IST" duration-ms="8952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:23 IST" name="teardown" description="Close Browser" finished-at="2023-02-04T18:29:29 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:29 IST" name="setup" description="Launch Browser" finished-at="2023-02-04T18:29:35 IST" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="producttest(java.lang.String)[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:35 IST" name="producttest" data-provider="product" finished-at="2023-02-04T18:29:43 IST" duration-ms="8175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Search_Product@2f9f7dcf]" started-at="2023-02-04T18:29:43 IST" name="teardown" description="Close Browser" finished-at="2023-02-04T18:29:48 IST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.Search_Product -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -28,7 +28,7 @@ public class BaseTest {
 	public static FileReader f1;
 	public static Properties loc = new Properties();
 
-	@BeforeTest(description = "Launch Browser")
+	@BeforeMethod(description = "Launch Browser")
 	public static void setup() throws IOException {
 
 		if (driver == null) {
@@ -55,7 +55,7 @@ public class BaseTest {
 
 	}
 
-	@AfterTest(description = "Close Browser")
+	@AfterMethod(description = "Close Browser")
 	public static void teardown() throws InterruptedException {
 		Thread.sleep(5000);
 		driver.quit();
